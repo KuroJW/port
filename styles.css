@@ -4,6 +4,7 @@
 {
     --bg-hd: #010409;
     --bg-color: #0d1117;
+    --bg-footer: #7c7b7b;
 }
 
 
@@ -22,7 +23,6 @@
 .bt-hd
 {
     display: flex;
-    justify-content: end;
     padding: 20px;
     gap: 5px;
     flex-direction: column;
@@ -84,6 +84,41 @@
     height: 170px;
     border: 2px solid;
     margin: 20px;
+}
+
+.container-sns
+{
+    display: flex;
+    align-items: start;
+}
+
+.content-sns 
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.sns
+{   
+    display: flex;
+    width: 50px;
+    height: 50px;
+}
+
+.sns1 
+{   
+    display: flex;
+    width: 29px;
+    height: 29px;
+}
+
+.footer
+{
+    background-color: var(--bg-footer);
+    margin-top: 20%;
+    padding: 20px 20px 20px 20px;
 }
 
 @media screen and (min-width:375px) 
