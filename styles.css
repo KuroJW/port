@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root 
+{
+    --bg-hd: #010409;
+    --bg-color: #0d1117;
+}
+
+
+.Background-color 
+{
+    background-color: var(--bg-color);
+}
+
+.container-hd 
+{   
+    background-color: var(--bg-hd);
+    display: flex;
+    justify-content: end;
+}
+
+.bt-hd
+{
+    display: flex;
+    justify-content: end;
+    padding: 20px;
+    gap: 5px;
+    flex-direction: column;
+    
+}
+
+.noite {
+    background-image: url("Noite.png");
+    background-size: cover; /* Faz com que a imagem cubra todo o botão */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita repetição da imagem */
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 13px 13px;
+    color: white;
+    padding: 7px;
+}
+
+.dia {
+    background-image: url("Dia.png");
+    background-size: cover; /* Faz com que a imagem cubra todo o botão */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita repetição da imagem */
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 13px 13px;
+    color: black;
+    padding: 7px;
+}
+.container
+{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: #0d1117;
+    border: 2px solid;
+    border-radius: 13px 13px;
+}
+
+.titulo 
+{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.s1{color: #fff700;} .s2{color: #787878;} .s3{color: #04a3f9;} .s4{color: #cb7c40;} .s5{color: #4ccd48cc;}
+
+.foto 
+{
+    display: flex;
+    justify-content: center;
+}
+
+.eu 
+{
+    border-radius: 50%;
+    width: 170px;
+    height: 170px;
+    border: 2px solid;
+    margin: 20px;
+}
+
+@media screen and (min-width:375px) 
+{   
+    body 
+    {   
+        font-family: var(--fonte-principal);
+        font-weight: 400;
+        font-size: 15px;
+    }
+
+    .container
+    {
+        margin: 10px 10px;
+    }
+
+    .titulo 
+    {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width:820px) 
+{   
+    body 
+    {   
+        font-family: var(--fonte-principal);
+        font-weight: 400;
+        font-size: 30px;
+    }
+
+    .container
+    {
+        margin: 10px 100px;
+    }
+
+    .titulo 
+    {
+        font-size: 35px;
+    }
+}
+
+@media screen and (min-width: 1024px) 
+{
+    body 
+    {   
+        font-family: var(--fonte-principal);
+        font-weight: 400;
+        font-size: 25px;
+    }
+
+    .container
+    {
+        margin: 10px 150px;
+    }
+
+    .titulo 
+    {
+        font-size: 35px;
+    }
+
+    .bt
+    {
+        font-size: 35px;
+    }
+
+}
+
+@media screen and (min-width: 1728px) 
+{
+    body 
+    {
+        font-family: var(--fonte-principal);
+        font-weight: 400;
+        font-size: 14px;
+    }
+
+    .container
+    {
+        margin: 10px 750px;
+    }
+
+    .titulo 
+    {
+        font-size: 25px;
+    }
+
+    .bt
+    {
+        font-size: 15px;
+    }
+}
+
